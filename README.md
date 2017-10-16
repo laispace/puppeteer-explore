@@ -126,7 +126,7 @@ console.log('html:', html);
 
 `Page.$` 可以理解为我们常用的 `document.querySelector`, 而 `Page.$$` 则对应 `document.querySelectorAll`。
 
-[完整示例代码](./demo/evalute-script.js)
+[完整示例代码](https://github.com/laispace/puppeteer-explore/blob/master/demo/evalute-script.js)
 
 ### 自动提交表单
 
@@ -152,7 +152,7 @@ await page.press('Enter');
 ```
 ![](https://raw.githubusercontent.com/laispace/puppeteer-explore/master/assets/auto-submit-form.gif?raw=true)
 
-[完整示例代码](./demo/auto-submit-form.js)
+[完整示例代码](https://github.com/laispace/puppeteer-explore/blob/master/demo/auto-submit-form.js)
 
 ## 复杂点的代码示例
 
@@ -278,7 +278,7 @@ console.log('bodyInnerHTML: ', bodyInnerHTML);
 `page.evaluate` 意为在浏览器环境执行脚本，可传入第二个参数作为句柄，而 `page.$eval` 则针对选中的一个 DOM 元素执行操作。
 
 
-[完整示例代码](./demo/craw-spa.js)
+[完整示例代码](https://github.com/laispace/puppeteer-explore/blob/master/demo/craw-spa.js)
 
 ### 导出批量网页：下载图灵图书
 
@@ -315,7 +315,7 @@ const browser = await puppeteer.launch({
 
 ![](https://raw.githubusercontent.com/laispace/puppeteer-explore/master/assets/download-ituring-books.png?raw=true)
 
-[完整示例代码](./demo/download-ituring-books.js)
+[完整示例代码](https://github.com/laispace/puppeteer-explore/blob/master/demo/download-ituring-books.js)
 
 
 ## 无头浏览器还能做什么？

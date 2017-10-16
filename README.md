@@ -150,7 +150,7 @@ await page.type('辣子鸡', {
 // 回车
 await page.press('Enter');
 ```
-![](./assets/auto-submit-form.gif?raw=true)
+![](https://raw.githubusercontent.com/laispace/puppeteer-explore/master/assets/auto-submit-form.gif?raw=true)
 
 [完整示例代码](./demo/auto-submit-form.js)
 
@@ -174,7 +174,7 @@ await page.press('Enter');
 
 先看下效果：
 
-![](./assets/auto-spa.gif?raw=true)
+![](https://raw.githubusercontent.com/laispace/puppeteer-explore/master/assets/auto-spa.gif?raw=true)
 
 代码比较长就不全贴了，关键是几行：
 
@@ -296,7 +296,7 @@ $ node ./demo/download-ituring-books.js '用户名' '密码' './books'
 
 注意：`puppeteer` 的 `Page.pdf()` 目前仅支持在无头模式中使用，所以要想看有头状态的抓取过程的话，执行到 `Page.pdf()` 这步会先报错：
 
-![](./assets/download-ituring-books-error.gif?raw=true)
+![](https://raw.githubusercontent.com/laispace/puppeteer-explore/master/assets/download-ituring-books-error.gif?raw=true)
 
 所以启动这个脚本时，需要保持无头模式：
 ```
@@ -309,11 +309,11 @@ const browser = await puppeteer.launch({
 
 看下执行效果：
 
-![](./assets/download-ituring-books.gif?raw=true)
+![](https://raw.githubusercontent.com/laispace/puppeteer-explore/master/assets/download-ituring-books.gif?raw=true)
 
 我的书架里有20多本书，下载完后是这样子：
 
-![](./assets/download-ituring-books.png?raw=true)
+![](https://raw.githubusercontent.com/laispace/puppeteer-explore/master/assets/download-ituring-books.png?raw=true)
 
 [完整示例代码](./demo/download-ituring-books.js)
 

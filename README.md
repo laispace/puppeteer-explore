@@ -80,7 +80,7 @@ await page.screenshot({
 });
 ```
 
-[完整示例代码](./demo/save-screenshot.js)
+[完整示例代码](https://github.com/laispace/puppeteer-explore/blob/master/demo/save-screenshot.js)
 
 ### 保存网页为 pdf
 
@@ -93,7 +93,7 @@ await page.pdf({
 });
 ```
 
-[完整示例代码](./demo/save-pdf.js)
+[完整示例代码](https://github.com/laispace/puppeteer-explore/blob/master/demo/save-pdf.js)
 
 ### 执行脚本
 
